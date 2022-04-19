@@ -1,0 +1,14 @@
+{
+	"name": "web-component",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build:tsbb": "tsbb build",
+		"watch:tsbb": "tsbb watch",
+		"watch:ncc": "ncc watch"
+	},
+	"devDependencies": {
+		"tsbb": "^3.7.2",
+		"@kkt/ncc": "^1.0.13"
+	}
+}
